@@ -90,9 +90,9 @@ All the logic lives in one script, `tracker.gd`.
 
 ![DesignTracker Dark Mode Mini](screenshots/dark_mode_mini.png)
 
-![DesignTracker 100% Font Size](screenshots/100%_font.png)
+![DesignTracker 100% Font Size](screenshots/100_font.png)
 
-![DesignTracker 60% Font Size](screenshots/60%_font.png)
+![DesignTracker 60% Font Size](screenshots/60_font.png)
 
 ## Changelog
 
