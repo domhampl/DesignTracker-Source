@@ -6,6 +6,13 @@ A small task tracker that sits on top of your screen while you work. I built it 
 
 DesignTracker is made with Godot 4 and runs as a single Windows `.exe`.
 
+## Screenshots
+
+![DesignTracker Dark Mode](screenshots/dark_mode.png)
+
+![DesignTracker Light Mode](screenshots/light_mode.png)
+
+
 ## What it does
 
 - **Always on top.** A small window that stays in front of your other apps. Drag the top bar to put it anywhere on your screen.
@@ -78,6 +85,14 @@ All the logic lives in one script, `tracker.gd`.
 - Windows only for now.
 - No cloud sync.
 - One window size at a time.
+
+## Screenshots
+
+![DesignTracker Dark Mode Mini](screenshots/dark_mode_mini.png)
+
+![DesignTracker 100% Font Size](screenshots/100%_font.png)
+
+![DesignTracker 60% Font Size](screenshots/60%_font.png)
 
 ## Changelog
 
