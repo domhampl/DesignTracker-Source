@@ -1,0 +1,22 @@
+
+# Godot generated files
+.godot/
+
+# Application save data
+tracker_data.json
+tasks.json
+
+# Exported builds
+builds/
+exports/
+*.exe
+*.zip
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / temporary files
+*.tmp
+*.bak

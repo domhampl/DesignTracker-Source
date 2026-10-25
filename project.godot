@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="DesignTracker"
+config/description="A small task tracker that sits on top of your screen while you work. I built it because I wanted something that stays in front of everything, shows my progress at a glance, and doesn't need a browser tab or an account."
+config/version="1.0.0"
+run/main_scene="uid://cpyn2kodfwhwt"
+config/features=PackedStringArray("4.7", "Mobile")
+boot_splash/bg_color=Color(0, 0, 0, 0)
+boot_splash/show_image=false
+boot_splash/use_filter=false
+config/icon="uid://u3sif7317ye1"
+
+[autoload]
+
+Main="*uid://cpyn2kodfwhwt"
+
+[display]
+
+window/size/borderless=true
+window/size/transparent=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/per_pixel_transparency/allowed=true
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="mobile"
